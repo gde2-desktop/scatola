@@ -1,0 +1,18 @@
+[Desktop Entry]
+_Name=Scatola
+_GenericName=File Manager
+Exec=scatola
+Icon=system-file-manager
+Terminal=false
+Type=Application
+StartupNotify=true
+NoDisplay=true
+OnlyShowIn=GDE2;
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=scatola
+X-GDE2-Bugzilla-Component=general
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Autostart-Phase=Desktop
+X-GDE2-Autostart-Notify=true
+X-GDE2-AutoRestart=true
+X-GDE2-Provides=filemanager

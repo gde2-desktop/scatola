@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+extensiondir=@libdir@/scatola/extensions-2.0
+
+Name: libscatola-extension
+Description: A library to create Scatola view extensions
+Version: @VERSION@
+Requires: glib-2.0 gtk+-@GTK_API_VERSION@
+Libs: ${pc_top_builddir}/${pcfiledir}/libscatola-extension.la
+Cflags: -I${pc_top_builddir}/${pcfiledir}/..

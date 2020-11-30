@@ -1,0 +1,14 @@
+[Desktop Entry]
+_Name=Autorun Prompt
+TryExec=scatola-autorun-software
+Exec=scatola-autorun-software %u
+Icon=application-x-executable
+NoDisplay=true
+Terminal=false
+StartupNotify=true
+Type=Application
+MimeType=x-content/software;
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=scatola
+X-GDE2-Bugzilla-Component=general
+X-GDE2-Bugzilla-Version=@VERSION@

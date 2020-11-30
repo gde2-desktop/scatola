@@ -1,0 +1,14 @@
+This is Scatola, the file manager for the GDE2 desktop.
+
+Scatola is a fork of Nautilus.
+
+Hacking on Scatola
+===================
+
+Please see the HACKING file for information about hacking on scatola.
+
+How to report bugs
+==================
+
+Bugs should be reported in GitHub
+https://github.com/gde2-desktop/scatola/issues

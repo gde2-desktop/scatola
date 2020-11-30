@@ -1,0 +1,15 @@
+[Desktop Entry]
+_Name=File Management
+_Comment=Change the behaviour and appearance of file manager windows
+Exec=scatola-file-management-properties
+Icon=system-file-manager
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;X-GDE2-PersonalSettings;
+Keywords=file;manager;change;properties;behaviour;appearance;windows;GDE2;
+OnlyShowIn=GDE2;
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=scatola
+X-GDE2-Bugzilla-Component=Preferences
+X-GDE2-Bugzilla-Version=@VERSION@

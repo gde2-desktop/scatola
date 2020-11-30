@@ -1,0 +1,17 @@
+[Desktop Entry]
+_Name=Scatola
+_GenericName=File Browser
+_Comment=Browse the file system with the file manager
+TryExec=scatola
+Exec=scatola --no-desktop --browser %U
+Icon=system-file-manager
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=GTK;System;Utility;Core;
+Keywords=files;browser;manager;GDE2;
+OnlyShowIn=GDE2;
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=scatola
+X-GDE2-Bugzilla-Component=general
+X-GDE2-Bugzilla-Version=@VERSION@

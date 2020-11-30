@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<book id="index" xmlns:xi="http://www.w3.org/2003/XInclude">
+  <bookinfo>
+    <title>Scatola Extension Reference Manual</title>
+    <releaseinfo>For Scatola-Extension &version;</releaseinfo>
+
+    </bookinfo>
+
+  <part>
+    <title>API Reference</title>
+
+    <chapter>
+      <title>Extension Interfaces</title>
+      <xi:include href="xml/scatola-column-provider.xml" />
+      <xi:include href="xml/scatola-column.xml" />
+      <xi:include href="xml/scatola-extension-types.xml" />
+      <xi:include href="xml/scatola-file-info.xml" />
+      <xi:include href="xml/scatola-info-provider.xml" />
+      <xi:include href="xml/scatola-location-widget-provider.xml" />
+      <xi:include href="xml/scatola-menu-provider.xml" />
+      <xi:include href="xml/scatola-menu.xml" />
+      <xi:include href="xml/scatola-menu-item.xml" />
+      <xi:include href="xml/scatola-property-page-provider.xml" />
+      <xi:include href="xml/scatola-property-page.xml" />
+    </chapter>
+
+  </part>
+  <index>
+    <title id="index-all">Index</title>
+  </index>
+</book>

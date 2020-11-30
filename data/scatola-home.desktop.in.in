@@ -1,0 +1,16 @@
+[Desktop Entry]
+_Name=Home Folder
+_Comment=Open your personal folder
+TryExec=scatola
+Exec=scatola --no-desktop
+Icon=user-home
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=GTK;System;Core;
+Keywords=home;personal;folder;open;GDE2;
+OnlyShowIn=GDE2;
+NoDisplay=true
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=scatola
+X-GDE2-Bugzilla-Component=general

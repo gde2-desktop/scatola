@@ -1,0 +1,40 @@
+.\" Man page for scatola-connect-server
+.TH SCATOLA-CONNECT-SERVER 1 "29 January 2014" "GDE2 Desktop Environment" "General Manual"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.SH "NAME"
+Scatola\-connect\-server \- Connect to Server dialog for Scatola
+.SH "SYNOPSIS"
+.B scatola\-connect\-server [OPTIONS]
+.SH "DESCRIPTION"
+Scatola Connect Server is the connection manager for Scatola/GDE2. It is provided as a part of the Scatola package for the GDE2 Desktop Environment.
+.PP
+Simply running "\fBscatola\-connection\-server\fR" will open a simple dialog allowing you to select the server type, and specify the server address, port, and login credentials for the server you want to connect to. This is the same dialog accessible via the Scatola "File" menu, and the GDE2 Desktop "Places" menu.
+.PP
+You can use the Scatola file manager to access remote servers such as SSH, FTP, and WebDav (HTTP/HTTPS) Servers.
+.PP
+If you desire to mount and access remote servers via console commands, you should use \fBscatola\fR directly. See: \fBscatola\fR(1)
+.SH "OPTIONS"
+.TP
+\fB\-\-display=DISPLAY\fR
+X display to use.
+.TP
+\fB\-?, \-h, \-\-help\fR
+Print standard command line options.
+.TP
+\fB\-\-help\-all\fR
+Print all command line options.
+.SH "BUGS"
+.SS Should you encounter any bugs, they may be reported at: 
+http://github.com/gde2-desktop/scatola/issues
+.SH "AUTHORS"
+.SS This Man Page has been written for the GDE2 Desktop Environment by:
+Adam Erdman <hekel@archlinux.info> (2014)
+.SH "SEE ALSO"
+.SS
+Scatola documentation can be found from the "Help" menu, or by pressing the F1 key. 
+Further information may also be available at: http://wiki.gde2-desktop.org/docs
+.P
+.BR "scatola" (1),
+.BR "scatola-autorun-software" (1),
+.BR "scatola-file-management-properties" (1)

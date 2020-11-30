@@ -1,0 +1,9 @@
+# List of source files that should NOT be translated.
+# Please keep this file sorted alphabetically.
+data/scatola-autorun-software.desktop.in
+data/scatola-browser.desktop.in
+data/scatola-computer.desktop.in
+data/scatola-file-management-properties.desktop.in
+data/scatola-folder-handler.desktop.in
+data/scatola-home.desktop.in
+data/scatola.desktop.in

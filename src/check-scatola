@@ -1,0 +1,2 @@
+#!/bin/sh
+./scatola --check --g-fatal-warnings
